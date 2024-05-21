@@ -38,7 +38,7 @@ const Dashboard = () => {
     
     return (
     <div className="">
-        <div className="bg-white h-[calc(100vh-96px)] rounded-lg p-4">
+        <div className="bg-white h-[calc(100vh-96px)] rounded-lg p-4 no-scrollbar overflow-y-auto">
             <h2 className="text-3xl">All Products</h2>
 
             <div className="mt-4 h-calc(100vh-180px)] overflow-y-auto">
